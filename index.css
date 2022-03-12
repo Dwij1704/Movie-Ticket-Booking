@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image:url(images/home.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    font-family:Book Antiqua;
+}
+.contain{
+    border-radius: 25px;
+    width: 380px;
+    height: 500px;
+    
+    position: relative;
+    margin: 6% auto;
+    
+}
+
+.form-box{
+    border-radius: 25px;
+    width: 400px;
+    height: 450px;
+    background-color: transparent;
+    position: relative;
+    margin: 6% auto;
+    color: white;
+    padding: 25px;
+    overflow:hidden
+}
+.error_log
+{
+    color:rgb(223, 251, 255);
+    text-shadow:2px 2px 5px rgb(0, 0, 0);
+    margin-top: 73%;
+    text-align-last: center;
+    margin-right:20%;
+    font-size:18px;
+    font-weight: bold;
+   
+}
+/* .error_sign
+{
+} */
+.button-box{
+    width: 200px;
+    margin: 35px auto;
+    margin-left: 70px;
+    position: relative;
+    box-shadow: 0 0 20px 9px #c74a4a5b;
+    border-radius : 30px;
+    color: white;
+
+}
+.toggle-btn{
+    color: white;
+    padding: 10px 28px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    color: white;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(to right, #300707,#f11e1e);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+
+.input-group{
+    color: white;
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-group2{
+    color: white;
+    top: 110px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    position: relative;
+    font-size: 15px;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-bottom: 1px solid #999;
+    border-top: 0;
+    outline: none;
+    background: transparent;
+}
+.input-field:focus::placeholder{
+    color: transparent;
+}
+.submit-btn{
+    color: white;
+    font-family:initial;
+    font-size: 17px;
+    width: 85%;
+    padding: 8px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 5px;
+    background: linear-gradient(to bottom right, #3f0909,#f11e1e);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box-log{
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.check-box-sign
+{
+    margin-top: 10px;
+    font-size: 5px;
+}
+.span{
+    color: rgb(253, 249, 249);
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#Login{
+    left: 50px;
+}
+#Register{
+    left: 450px;
+}
+#error
+{
+    /* /* left: 500px;
+    position:absolute; 
+    top: 800px; */
+    color:rgb(223, 251, 255);
+    text-shadow:2px 2px 5px rgb(0, 0, 0);
+    margin-top: 75%;
+    margin-right:20%;
+    margin-left: 12%;
+    font-size:18px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+
+
+
